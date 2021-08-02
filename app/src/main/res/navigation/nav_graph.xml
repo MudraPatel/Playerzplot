@@ -1,0 +1,63 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/discoverFragment">
+
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.example.playerzpot.view.fragment.DiscoverFragment"
+        tools:layout="@layout/fragment_discover">
+
+        <action
+            android:id="@+id/next_action"
+            app:destination="@id/videoFragment">
+        </action>
+        <argument
+            android:name="fragmentName"
+            android:defaultValue="discover"
+            />
+
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment">
+        </action>
+        <argument
+            android:name="bucketId"
+            app:argType="integer"
+            />
+        <argument
+            android:name="count"
+            app:argType="integer"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.playerzpot.view.fragment.VideoFragment"
+        tools:layout="@layout/fragment_video">
+        <argument
+            android:name="fragmentName"
+            android:defaultValue="music"
+            />
+
+        <!--        <action-->
+        <!--            android:id="@+id/next_action"-->
+        <!--            app:destination="@id/yogaListFragment">-->
+        <!--        </action>-->
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.playerzpot.view.fragment.DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="fragmentName"
+            android:defaultValue="music"
+            />
+
+    </fragment>
+
+</navigation>

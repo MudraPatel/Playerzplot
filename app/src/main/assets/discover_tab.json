@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "message": "Success",
+  "data": [{
+    "id": 1,
+    "title": "All"
+  },
+    {
+      "id": 2,
+      "title": "IPL"
+    },
+    {
+      "id": 3,
+      "title": "CRICKET"
+    },
+    {
+      "id": 4,
+      "title": "FOOTBALL"
+    }
+  ]
+}

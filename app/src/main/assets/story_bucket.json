@@ -1,0 +1,56 @@
+{
+	"code": 200,
+	"message": "Success",
+	"data": [
+		{
+			"id": 1,
+			"team_1": "SAL",
+			"team_2": "VID",
+			"team_1_score": "111/6 (10 ov)",
+			"team_2_score": "*56/3 (5.4 ov)",
+			"live_message": "remaining ball",
+			"team_1_icon": "",
+			"team_2_icon": ""
+		},
+		{
+			"id": 2,
+			"team_1": "IND",
+			"team_2": "AUS",
+			"team_1_score": "171/8 (10 ov)",
+			"team_2_score": "*100/3 (8 ov)",
+			"live_message": "remaining ball",
+			"team_1_icon": "",
+			"team_2_icon": ""
+		},
+		{
+			"id": 3,
+			"team_1": "IND",
+			"team_2": "PAK",
+			"team_1_score": "200/5 (10 ov)",
+			"team_2_score": "*102/5 (6.2 ov)",
+			"live_message": "remaining ball",
+			"team_1_icon": "",
+			"team_2_icon": ""
+		},
+		{
+			"id": 4,
+			"team_1": "ENG",
+			"team_2": "VID",
+			"team_1_score": "92/8 (9 ov)",
+			"team_2_score": "*56/2 (4 ov)",
+			"live_message": "remaining ball",
+			"team_1_icon": "",
+			"team_2_icon": ""
+		},
+		{
+			"id": 5,
+			"team_1": "AUS",
+			"team_2": "ENG",
+			"team_1_score": "222/9 (10 ov)",
+			"team_2_score": "*56/3 (1.2 ov)",
+			"live_message": "remaining ball",
+			"team_1_icon": "",
+			"team_2_icon": ""
+		}
+	]
+}

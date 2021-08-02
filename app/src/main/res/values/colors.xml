@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#5090B9</color>
+    <color name="light_gray">#D8DADA</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_bottom_navigation_color">#F1F4F4</color>
+    <color name="black">#0E0E0E</color>
+    <color name="gray">#434141</color>
+    <color name="green">#4AA46F</color>
+    <color name="light_green">#BFEED2</color>
+    <color name="light_black">#4C4A4A</color>
+    <color name="story_bucket_bottom_text">#706F6F</color>
+    <color name="story_bucket_bg">#F5F5F5</color>
+    <color name="transparent">#03FFFFFF</color>
+    <color name="inactive_tab_color">#000000</color>
+    <color name="active_tab_color">#D83E72</color>
+</resources>
